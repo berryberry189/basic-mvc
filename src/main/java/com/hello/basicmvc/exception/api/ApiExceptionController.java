@@ -46,7 +46,6 @@ public class ApiExceptionController {
         return "ok";
     }
 
-
     @Data
     @AllArgsConstructor
     static class MemberDto{
