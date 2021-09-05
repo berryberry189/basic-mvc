@@ -2,8 +2,8 @@ package com.hello.basicmvc.exception;
 
 import com.hello.basicmvc.exception.filter.LogFilter;
 import com.hello.basicmvc.exception.interceptor.LogInterceptor;
-import com.hello.basicmvc.resolver.MyHandlerExceptionResolver;
-import com.hello.basicmvc.resolver.UserHandlerExceptionResolver;
+import com.hello.basicmvc.exception.resolver.MyHandlerExceptionResolver;
+import com.hello.basicmvc.exception.resolver.UserHandlerExceptionResolver;
 import org.springframework.boot.web.servlet.FilterRegistrationBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

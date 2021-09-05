@@ -1,4 +1,4 @@
-package com.hello.basicmvc.resolver;
+package com.hello.basicmvc.exception.resolver;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.hello.basicmvc.exception.exception.UserException;

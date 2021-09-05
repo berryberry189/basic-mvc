@@ -1,4 +1,4 @@
-package com.hello.basicmvc.resolver;
+package com.hello.basicmvc.exception.resolver;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.servlet.HandlerExceptionResolver;
