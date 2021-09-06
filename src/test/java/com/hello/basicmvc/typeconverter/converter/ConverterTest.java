@@ -1,7 +1,6 @@
 package com.hello.basicmvc.typeconverter.converter;
 
 import com.hello.basicmvc.typeconverter.type.IpPort;
-import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;
