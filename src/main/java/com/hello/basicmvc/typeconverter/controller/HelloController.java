@@ -1,5 +1,6 @@
 package com.hello.basicmvc.typeconverter.controller;
 
+import com.hello.basicmvc.typeconverter.type.IpPort;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
@@ -29,6 +30,13 @@ public class HelloController {
         // 쿼리스트링으로 전달하는 data=10의 10은 숫자가 아닌 문자이다
         // 하지만 @RequestParam을 사용하면 문자 10을 Integer타입의 숫자 10으로 스프링에서 타입 변환을 해주므로 편리하게 받을 수 있다.
         System.out.println("data = " + data);
+        return "ok";
+    }
+
+    @GetMapping("/ip-port")
+    public String ipPort(@RequestParam IpPort data){
+        System.out.println("ipPort IP = " + data.getIp());
+        System.out.println("ipPort Port = " + data.getPort());
         return "ok";
     }
 
